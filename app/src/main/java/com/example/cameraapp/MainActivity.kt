@@ -31,7 +31,6 @@ import java.io.File
 class MainActivity : AppCompatActivity() {
     private val PERMISSION_REQUEST_CAMERA = 239
     private val PERMISSION_REQUEST_STORAGE = 2390
-    private val PERMISSION_REQUEST_MANAGE_EXTERNAL_STORAGE = 23900
 
     private lateinit var processCameraProvider: ListenableFuture<ProcessCameraProvider>
     private lateinit var imageCapture: ImageCapture
@@ -57,10 +56,6 @@ class MainActivity : AppCompatActivity() {
         needToRequestPermission(
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
             PERMISSION_REQUEST_STORAGE
-        )
-        needToRequestPermission(
-            Manifest.permission.MANAGE_EXTERNAL_STORAGE,
-            PERMISSION_REQUEST_MANAGE_EXTERNAL_STORAGE
         )
 
     }
