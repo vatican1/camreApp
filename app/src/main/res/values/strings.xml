@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cameraApp</string>
+    <string name="take_photo">Photo</string>
+    <string name="EnterPattern">Введите патерн в виде:</string>
+    <string name="pattern_type">str %d str</string>
+    <string name="save_button">Save</string>
+</resources>
